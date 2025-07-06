@@ -107,7 +107,8 @@ async def run():
                 functions.append(convert_to_llm_tool(tool))
             
             # Sample prompt to send to the LLM
-            prompt = "Add 2 to 20"
+            prompt = " Subtract 5 from 20."
+            print("Prompt:", prompt)
 
             # ask LLM what tools to all, if any
             functions_to_call = call_llm(prompt, functions)

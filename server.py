@@ -12,7 +12,7 @@ def add(a: int, b: int) -> int:
 
 # Add a subtraction tool
 @mcp.tool()
-def sub(a:int, b: int) -> int:
+def subtract(a:int, b: int) -> int:
     """Subtract two numbers"""
     return add(a, -b)
 
