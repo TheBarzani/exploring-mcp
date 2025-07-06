@@ -31,7 +31,8 @@ async def run():
 
             # Read a resource
             print("READING RESOURCE")
-            content, mime_type = await session.read_resource(AnyUrl("greeting://hello"))
+            content, mime_type = await session.read_resource(AnyUrl("greeting://World"))
+            print(f'The message is {mime_type[1][0].text}')
 
             # Call a tool
             print("CALL TOOL")
