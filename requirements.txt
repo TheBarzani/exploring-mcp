@@ -1,1 +1,4 @@
 mcp[cli]
+openai
+azure-ai-inference
+python-dotenv

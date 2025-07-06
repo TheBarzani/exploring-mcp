@@ -7,3 +7,6 @@ This is a repository for learning [Model Context Protocol (MCP)](https://modelco
 - curl
 - npm 22.17.0 (LTS)
 - uv 0.7.19
+
+# GitHub Token Mess
+When using GitHub Tokens to authenticate for using the llm models, the permission for _models_ should be set to _read_: `models:read`
