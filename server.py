@@ -10,6 +10,12 @@ def add(a: int, b: int) -> int:
     """Add two numbers"""
     return a + b
 
+# Add a subtraction tool
+@mcp.tool()
+def sub(a:int, b: int) -> int:
+    """Subtract two numbers"""
+    return add(a, -b)
+
 
 # Add a dynamic greeting resource
 @mcp.resource("greeting://{name}")
